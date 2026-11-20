@@ -1,0 +1,118 @@
+/* WhoDo brand tokens. Source of truth: whodo-mvp tailwind.config.js */
+:root {
+  --navy: #171842;
+  --blue: #1a5bb7;
+  --blue-light: #4a8bf5;
+  --orange: #f59e0b;
+  --light-bg: #eef2ff;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.reveal {
+  background: var(--navy);
+  font-family: "Fustat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  padding: 0;
+  height: 1080px;
+  width: 1920px;
+}
+
+.reveal .progress {
+  height: 10px;
+  background: rgba(23, 24, 66, 0.35);
+}
+
+.reveal .progress span {
+  background: var(--orange);
+}
+
+/* Slide frame: one per <section>. Combine a color class with a layout class. */
+.frame {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  padding: 72px 96px;
+  color: var(--white);
+}
+
+.navy { background: var(--navy); }
+.blue { background: var(--blue); }
+.gradient { background: linear-gradient(148deg, #004699 2.4%, #3b82f6 98.2%); }
+.light { background: var(--light-bg); color: var(--navy); }
+
+/* Layouts */
+.split {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.split.flip .copy { order: 2; }
+.split.flip .art { order: 1; }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Type */
+.reveal .frame h1 {
+  margin: 0;
+  font-size: 150px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: none;
+}
+
+.reveal .frame h2 {
+  margin: 0 0 32px;
+  font-size: 84px;
+  line-height: 1.05;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.reveal .frame p,
+.reveal .frame li {
+  font-size: 44px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.reveal .frame ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+
+.accent { color: var(--orange); }
+
+.by {
+  margin-top: 24px;
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+/* Art */
+.art img {
+  display: block;
+  width: 100%;
+  max-height: 880px;
+  object-fit: contain;
+  border-radius: 24px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "whodo-pitch-deck",
+  "version": "1.0.0",
+  "description": "WhoDo pitch deck. A Reveal.js presentation hosted on GitHub Pages.",
+  "private": true,
+  "scripts": {
+    "start": "serve -l 4173"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}
