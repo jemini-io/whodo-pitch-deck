@@ -48,5 +48,5 @@ Run this only when a human asks to "catch the deck up" or "rebuild the slides." 
 
 ## Known state
 
-- `slides.md` has slides 1 to 12. `speaker-notes.md` has 1 to 13 (13 is "Use of Funds"). Rebuilding must wait until a human resolves this.
-- `index.html` is still the scaffold with placeholder slides. It doesn't match `slides.md` yet.
+- `slides.md` has slides 1 to 12. `speaker-notes.md` has 1 to 13 (13 is "Use of Funds"). Slides 12 and 13 have no on-screen content, so the last rebuild left them out.
+- `index.html` was last rebuilt from the source files. Slide 7 numbers in `slides.md` don't match `research-docs/market-size-research.md`. Resolve that in `slides.md` before the next rebuild.
