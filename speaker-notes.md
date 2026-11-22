@@ -42,15 +42,20 @@ Eric, use as little works as possible and just move all our slide words to speak
 
 ## 7. Market Opportunity
 
-@dan to fill this out.
-
-Make sure to include GPT references.
+This is a bottom-up analysis- we're starting with the hard number of 150K qualified businesses.
 
 1. TAM Source: Census 2023 County Business Patterns (HVAC/plumbing, electrical, roofing, landscaping, pest, garage door) × 92% establishment-to-firm × 45% with $500K+ revenue × $6K. Range $800M–$1.1B. U.S. only; global is upside, not included.
-2. SAM: 65% software-ready is our assumption (55–75% = $495M–$675M). Support: ServiceTitan research shows 70% of surveyed commercial contractors use a CRM; Deloitte 2026 shows 58% use an FSM.
-3. Inspo TAM/SAM/SOM chart
-4. 5 customers/mo with just sales budget, if we do sales+dev, we think we can double that.
-5. If asked: the 45% revenue-qualification rate comes from landscaping Census data only. Our SOM is below the research model (125 customers / $750K at 12 months).
+
+1. SAM: 55% of 800 to 70% of $1.1B = $440M-$770M. 55–75% of companies are software-ready is our assumption.
+Support: ServiceTitan research shows 70% of surveyed commercial contractors use a CRM; Deloitte 2026 shows 58% use an FSM.
+    1. Wedge: ServiceTitan alone has ~10.8K active users, that's $65M ARR. 
+    1. Even if we got 250 customers, that's 0.26% of SAM and $1.5M ARR
+1. 12-month SOM: 5 customers/mo with just sales budget = 60. If we do sales+dev, we think we can double that.
+
+If asked: Our SOM is below the research model (125 customers / $750K at 12 months).
+
+For Eric:
+3. Inspo TAM/SAM/SOM chart: https://i.pinimg.com/736x/c5/86/5c/c5865c1ef29de2100f19442179a766cb.jpg
 
 ## 8. Why Now?
 
@@ -58,21 +63,69 @@ Make sure to include GPT references.
 
 ## 9. Competitive Analysis
 
-This is the competitive analysis slide.
+Frame: four categories, one gap. WhoDo is not "another CRM" and not "another lead marketplace."
 
-@dan send chatgpt convo to Brittany (it’s here)
+- Marketplaces (Thumbtack, Angi, Yelp): own discovery and the lead. Contractor rents access to the homeowner. No virtual-consult workflow. Easy dig: "Aren't you just a better Thumbtack?" Answer: no — we never take the lead; we help the contractor close demand they already have.
+- Video tools (LiveSwitch is the real peer; HandiY/FrontDoor unverified in research): closest product overlap on remote estimates. Differentiator to claim carefully: WhoDo's wedge is bidirectional ServiceTitan sync + no-download text/browser path + not becoming another system of record. LiveSwitch's documented CRM hook is Housecall Pro.
+- CRM / FSM (ServiceTitan, Housecall Pro, Jobber; Podium as inbox): run the business. Scheduling, jobs, payments. Virtual consult is not native — HCP bolts on LiveSwitch. WhoDo's thesis: sit on top, don't rip-and-replace. Biggest strategic risk if asked: ServiceTitan builds or buys this layer into Marketing Pro / the OS.
+- Reputation / marketing (Birdeye, NiceJob): post-job reviews and referrals. Adjacent, not the same job. NiceJob is the referral/review overlap; Birdeye is enterprise reputation.
+
+Callouts worth saying out loud:
+1. "We complement ServiceTitan — converting only their ~10.8K active base is a ~$65M ARR wedge inside our SAM."
+2. "LiveSwitch is the honest product competitor on video. Everyone else is a different job-to-be-done."
+3. "Whitespace is connecting pre-sale video qualification to the CRM workflow without a marketplace middleman."
+4. If pressed on defensibility: measurable lead-to-booked conversion, ST integration depth, and whether provider-referral network effects show up. Don't claim network effects you haven't proven.
+
+Source of truth for the matrix: `research-docs/competitive-analysis.csv` and `research-docs/competitive-research.md`. Do not put HandiY/FrontDoor on the slide until verified.
 
 ## 10. Business Model & Go-To-Market
+
+- B2B Saas Sub Model, Basic: Free, Grow: $250, Pro: $500. No setup fees, no usage overages.
+- Partnerships - This drives the initial 60, verbal agreements (already have the first 5 referrals)
+    - Contractor Commerce
+    - WorkWives
+  Partnerships leverage our Early Access Program that offers 20% Rev Share for first 50 customers, for up to 2 yrs. They will provide us warm intros to their existing customers. We just need to close the deal. Paid on MRR.
+
+- Direct Marketing (ads) - this has already got us 35 customers on Basic Plan
+- ST Marketplace
+- Jobber, Housecall Pro, Joist Marketplaces
 
 ## 11. Timeline | Accomplishments & Future Plans
 
 Make this a timeline viz
 
+- Summer 2025 POC, Design Partner: Intown
+- Spring 2026 MVP, Standalone Web App
+- July 2026 Beta with 3 Customers
+    - None paying. Need S/M person to upsell.
+- Aug 2026 Meta Ad Campaign Launched
+- Sept 2026 - Ad Campaing Paused - 35 Total Sign Ups
+    - None paying. Need S/M person to upsell.
+
+- Spend to Date for Build + early GTM: ~$80K (poc: $30K + mvp: $40K + operating: $10K)
+- All founder money, Brittany put in cash, Dan put in time.
+
 ## 12. Plans & Projections
 
-@dan do this slide
+Next Up @brittany - fill out this roadmap of features and activities. ASSUME you have 1M to work with, what would you do?
+
+1. We plan to make a sales/marketing (S/M) hire at the start of Q1 2027
+1. That hire will onboard and support leads from partnerships (CC, WW, etc)
+1. Run our Early-Access program Q1-Q2.
+1. S/M Hire will also work Brittany's network and social outreach to establish more partners.
+    1. Partners: Ad agencies, website agencies, service-titan marketplace venders, etc.
+1. By the end of 12 mo, we expect to hit our target of 60 Pro-Plan customers = $360K
+
+Note: If we have funds for additional features, we believe we can double these numbers.
 
 ## 13. Use of Funds & Vision ("What’s Next?")
+
+@Brittany and @Dan
+
+We're asking for 200K
+1. Full time S/M agent -  ??
+2. Additional software build/maintenance
+1. Conferences?
 
 ## References (for us)
 

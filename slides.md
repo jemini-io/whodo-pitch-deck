@@ -82,8 +82,8 @@ Co-Founder & Fractional CTO
 
 ## 7. Market Opportunity
 
-- TAM: ~150K U.S. firms with $500K+ revenue × $6K = ~$900M ARR (U.S. only)
-- SAM: ~98K already on CRM/FSM software (65%) -> ~$586M ARR
+- TAM: ~150K U.S. firms with $500K+ revenue × $6K = $800M-$1.1B ARR (U.S. only)
+- SAM: ~98K already on CRM/FSM software (55-70%) -> $440M-$770M ARR
 - 12-mo SOM: 60 Customers -> 360K ARR
 
 ## 8. Why Now?
@@ -92,30 +92,51 @@ Co-Founder & Fractional CTO
 
 ## 9. Who Else? | Competitive Analysis
 
-- Video Consults
-- CRMs
+**We don't replace the CRM. We don't sell the lead. We close the gap.**
+
+| | Marketplaces (Thumbtack, Angi, Yelp) | Video tools (LiveSwitch) | CRM / FSM (ServiceTitan, Jobber, HCP) | WhoDo |
+|---|---|---|---|---|
+| Instant virtual consult | No | Yes | Rarely (add-on) | Yes |
+| Contractor owns the customer | No | Yes | Yes | Yes |
+| Replaces the CRM | No | No | Yes | No |
+| Bidirectional CRM sync | No | Limited (e.g. HCP) | Native | Yes (ST first) |
+| Sells / owns the lead | Yes | No | No | No |
+
+Whitespace: pre-sale video qualification that plugs into the CRM the shop already runs — text/browser, no app, no middleman.
 
 ## 10. Business Model & Go-To-Market
 
-- B2B Saas Sub Model
-- Partnerships
-- Contractor Commerce
-- WorkWives
-- Direct Marketing (ads)
-- ST Marketplace
-- Jobber, Housecall Pro, Joist Marketplaces
+**B2B SaaS** — Basic free · Grow $250/mo · Pro $500/mo  
+No setup fees. No usage overages.
 
-## 11. Timeline | Accomplishments & Future Plans
+**Base-case GTM: partnerships** (drives the first 60)
+- Contractor Commerce + WorkWives — warm intros; we close
+- Early Access: 20% rev share on MRR for first 50 customers, up to 2 years
+- Verbal agreements live; first 5 referrals in hand
 
-- Summer 2025 POC, design partner Intown
-- Spring 2026 MVP, standalone app, $40K
-- July 2026 Beta (3 users)
-- Aug 2026 Meta Ad Campaign
-- Sept 2026 - $2K ad spend = 35 Sign Ups
-- Next Up @brittany - fill out this roadmap of features and activities. ASSUME you have 1M to work with, what would you do?
-- 2026 Q4
-  - Hire Sales Person
+**Secondary / later**
+- Ads already running → 35 Basic (free) accounts
+- ServiceTitan, Jobber, Housecall Pro, Joist marketplaces
+
+## 11. Timeline | Accomplishments
+
+> Timeline viz
+
+- Summer 2025 — POC, design partner Intown
+- Spring 2026 — MVP, standalone web app
+- July 2026 — Beta, 3 customers (not yet paying)
+- Aug–Sep 2026 — Meta ads → 35 Basic signups (not yet paying); campaign paused
+
+**~$80K spent to date** (build + early GTM). Founder-funded.
 
 ## 12. Plans & Projections
 
+**Q1 2027** — Hire S/M; own partner leads (CC, WW) + Brittany network / new partners  
+**Q1–Q2** — Early Access program  
+**Month 12** — **60 Pro @ $500 = $360K ARR**
+
+Upside: with additional product funding beyond the base ask, we believe we can 2×.
+
 ## 13. Use of Funds & Vision ("What’s Next?")
+
+TBD
