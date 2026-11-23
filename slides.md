@@ -7,7 +7,6 @@
 Name: Whodo
 Founders: Dan Villa (dan@getwhodo.com), Brittany Grose (brittany@getwhodo.com)
 
-
 ## 2. Who we are
 
 **We know the challenges because we live them.**
@@ -35,7 +34,6 @@ Co-Founder & Fractional CTO
 
 ## 3. The Market
 
-> <size of market>
 > Short, straight to the point,
 
 - Real data: ~150,000 midsized U.S. service businesses, ~$900M ARR opportunity
@@ -110,11 +108,13 @@ Whitespace: pre-sale video qualification that plugs into the CRM the shop alread
 No setup fees. No usage overages.
 
 **Base-case GTM: partnerships** (drives the first 60)
+
 - Contractor Commerce + WorkWives — warm intros; we close
 - Early Access: 20% rev share on MRR for first 50 customers, up to 2 years
 - Verbal agreements live; first 5 referrals in hand
 
 **Secondary / later**
+
 - Ads already running → 35 Basic (free) accounts
 - ServiceTitan, Jobber, Housecall Pro, Joist marketplaces
 
@@ -137,6 +137,16 @@ No setup fees. No usage overages.
 
 Upside: with additional product funding beyond the base ask, we believe we can 2×.
 
-## 13. Use of Funds & Vision ("What’s Next?")
+## 13. Use of Funds
 
-TBD
+**Raise $275K** — the year-one operating plan
+
+- GTM hire (salary + load) — **$120K**
+- Product, 20 hrs/week — **$78K**
+- Four conferences — **$20K**
+- Tools, hosting, legal — **~$16K**
+- Partner rev share — **$39K**, paid only when subscription revenue comes in
+
+Founders take no salary.
+
+**If the 5-a-month plan hits:** **$195K** cash collected over the year, on top of the raise. Month-12 run rate stays **$360K ARR**.

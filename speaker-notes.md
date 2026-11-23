@@ -50,7 +50,7 @@ This is a bottom-up analysis- we're starting with the hard number of 150K qualif
 Support: ServiceTitan research shows 70% of surveyed commercial contractors use a CRM; Deloitte 2026 shows 58% use an FSM.
     1. Wedge: ServiceTitan alone has ~10.8K active users, that's $65M ARR. 
     1. Even if we got 250 customers, that's 0.26% of SAM and $1.5M ARR
-1. 12-month SOM: 5 customers/mo with just sales budget = 60. If we do sales+dev, we think we can double that.
+1. 12-month SOM: 5 new Pro customers/mo, 60 at month 12, $360K ending ARR. That $360K is month-12 ARR from the year-one model. 
 
 If asked: Our SOM is below the research model (125 customers / $750K at 12 months).
 
@@ -85,6 +85,8 @@ Source of truth for the matrix: `research-docs/competitive-analysis.csv` and `re
     - Contractor Commerce
     - WorkWives
   Partnerships leverage our Early Access Program that offers 20% Rev Share for first 50 customers, for up to 2 yrs. They will provide us warm intros to their existing customers. We just need to close the deal. Paid on MRR.
+  
+  Note: The raw numbers sheet do not apply these comission restrictions. Can do, if/when investors ask for the exact breakdown.
 
 - Direct Marketing (ads) - this has already got us 35 customers on Basic Plan
 - ST Marketplace
@@ -104,28 +106,38 @@ Make this a timeline viz
 
 - Spend to Date for Build + early GTM: ~$80K (poc: $30K + mvp: $40K + operating: $10K)
 - All founder money, Brittany put in cash, Dan put in time.
+- The ~$80K is history. Do not add it to the $275K ask or present it as part of the forward plan.
 
 ## 12. Plans & Projections
 
-Next Up @brittany - fill out this roadmap of features and activities. ASSUME you have 1M to work with, what would you do?
+Base case, and this is the case in the workbook: 5 new Pro customers a month, no churn, 60 at month 12, $360K ending ARR. The clock starts when the GTM hire starts, not when the round closes. Paid ads stay off.
 
 1. We plan to make a sales/marketing (S/M) hire at the start of Q1 2027
 1. That hire will onboard and support leads from partnerships (CC, WW, etc)
 1. Run our Early-Access program Q1-Q2.
 1. S/M Hire will also work Brittany's network and social outreach to establish more partners.
     1. Partners: Ad agencies, website agencies, service-titan marketplace venders, etc.
-1. By the end of 12 mo, we expect to hit our target of 60 Pro-Plan customers = $360K
+1. By the end of 12 mo, we expect to hit our target of 60 Pro-Plan customers = $360K ending ARR
 
-Note: If we have funds for additional features, we believe we can double these numbers.
+Do not call the $195K of cash collected "ARR." That number is cash across the ramp. It belongs on the next slide, and only as cash.
 
 ## 13. Use of Funds & Vision ("What’s Next?")
 
-@Brittany and @Dan
+We're asking for $275K. The whole year-one operating plan sheet totals $272,840.
 
-We're asking for 200K
-1. Full time S/M agent -  ??
-2. Additional software build/maintenance
-1. Conferences?
+1. GTM hire, salary plus 20% load: $120K
+1. Contract dev, 20 hrs/week at $75: $78K.
+1. Four conferences at $5K: $20K
+
+Then:
+- tools and hosting about $10K,
+- legal/accounting/insurance $6K 
+- partner rev share $39K paid only when subscription revenue actually comes in.
+- Founders take no salary.
+
+Spoken close: "We're raising $275K to fund that plan outright. If the 5-a-month plan hits, customers pay us about $195K over the year on top of the raise, and we end the year at a $360K run rate."
+
+Note: ~$85K is the low point of the budget and assumes all 60 customers show up on schedule.
 
 ## References (for us)
 
