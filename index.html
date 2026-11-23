@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WhoDo Pitch Deck</title>
   <!-- Arrows move. F is fullscreen. S opens speaker notes. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/latin-500.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/latin-600.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/latin-700.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/latin-800.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/fustat@5.3.0/latin-500.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/fustat@5.3.0/latin-700.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/fustat@5.3.0/latin-800.css">
@@ -18,23 +22,27 @@
     <div class="slides">
 
       <section>
-        <div class="frame gradient center">
-          <h1>WhoDo</h1>
-          <p class="by">Pitch deck</p>
+        <div class="frame hero" data-n="01">
+          <h1>whodo</h1>
+          <p class="tagline">Connect smarter.</p>
+          <div class="founders">
+            <p><strong>Dan Villa</strong><span>dan@getwhodo.com</span></p>
+            <p><strong>Brittany Grose</strong><span>brittany@getwhodo.com</span></p>
+          </div>
         </div>
         <aside class="notes">
           <ul>
-            <li>Make sure it's personalized. “Prepared for {investor} on {date}”</li>
+            <li>Make sure it’s personalized. “Prepared for {investor} on {date}”</li>
           </ul>
         </aside>
       </section>
 
       <section>
-        <div class="frame light tight">
+        <div class="frame paper" data-n="02">
           <p class="kicker">Who we are</p>
-          <h2>We know the challenges because we live them.</h2>
+          <h2 class="lede">We know the challenges because we live them.</h2>
           <div class="team">
-            <div class="person">
+            <div class="person brittany">
               <img src="images/brittany.jpeg" alt="Brittany Grose">
               <h3>Brittany Grose</h3>
               <p class="role">Co-Founder &amp; Trade Business Owner</p>
@@ -44,15 +52,15 @@
                 <li>Co-owns a plumbing company; her husband has 30+ years in the trade</li>
               </ul>
             </div>
-            <div class="person">
+            <div class="person dan">
               <img src="images/dan.jpeg" alt="Dan Villa">
               <h3>Dan Villa</h3>
               <p class="role">Co-Founder &amp; Fractional CTO</p>
               <ul>
-                <li>Worked in Enterprise (Boeing) for nearly 10 years.</li>
-                <li>Start ups for last 5 years</li>
-                <li>Owner and Operator at Jemini for 3+ years</li>
-                <li>Podcast Host and AI Advisor</li>
+                <li>Worked in Enterprise (Boeing) for nearly 10 years</li>
+                <li>Startups for the last 5 years</li>
+                <li>Owner and operator at Jemini for 3 years</li>
+                <li>Podcast host and AI advisor</li>
               </ul>
             </div>
           </div>
@@ -65,201 +73,453 @@
       </section>
 
       <section>
-        <div class="frame navy">
-          <h2>The Market</h2>
-          <p class="by">and why it matters.</p>
-          <p class="big">~$900M ARR</p>
-          <ul>
-            <li>Real data: 150,000 digitally mature midsized service businesses</li>
-            <li>Eligible businesses defined as making 500K / yr Rev.</li>
-          </ul>
+        <div class="frame paper tease" data-n="03">
+          <p class="kicker">The market</p>
+          <p class="giant">~150,000</p>
+          <p class="deck-lead">midsized U.S. service businesses. Eligible means $500K a year in revenue.</p>
+          <p class="giant pop">~$900M</p>
+          <p class="deck-lead">ARR opportunity.</p>
         </div>
         <aside class="notes">
           <ul>
             <li>This is meant to be simple and serve as a teaser of what’s to come. Inspo: “Background” slide from Notion’s pitch deck (https://notion.notion.site/Notion-Seed-Pitch-Deck-2013-26634e24c14543d7a1c72325bcb4d2df)</li>
-            <li>AI Deep Research Findings:</li>
-            <li>“Using 2023 Census employer-establishment counts, an adjustment from establishments to firms, and a revenue-qualification model anchored to Census revenue-size data, I estimate a U.S. TAM of approximately 150,000 eligible firms, equivalent to roughly $900 million of annual recurring revenue at Whodo's $500/month price. A defensible range is roughly $800 million–$1.1 billion ARR depending on the proportion of employer firms exceeding the $500,000 revenue threshold.”</li>
+            <li>AI Deep Research Findings: “Using 2023 Census employer-establishment counts, an adjustment from establishments to firms, and a revenue-qualification model anchored to Census revenue-size data, I estimate a U.S. TAM of approximately 150,000 eligible firms, equivalent to roughly $900 million of annual recurring revenue at Whodo's $500/month price. A defensible range is roughly $800 million–$1.1 billion ARR depending on the proportion of employer firms exceeding the $500,000 revenue threshold.”</li>
           </ul>
         </aside>
       </section>
 
       <section>
-        <div class="frame light">
-          <h2>Closing the deal is HARD.</h2>
-          <div class="columns">
-            <div>
-              <h3>Lack of Trust</h3>
+        <div class="frame paper" data-n="04">
+          <p class="kicker">The problem</p>
+          <h2>Closing the deal is <span class="hl">HARD.</span></h2>
+          <div class="pains">
+            <article class="pain trust">
+              <h3>Lack of trust</h3>
               <ul>
                 <li>Customers struggle to purchase when they don’t know if they can trust the provider. They hesitate when they can’t get a simple over-the-phone estimate. Customers often have to pay a diagnostic fee just to get an estimate.</li>
-                <li>Providers: It’s hard to vet a customer when all they get is a text or a phone call.</li>
+                <li>Providers: it’s hard to vet a customer when all they get is a text or a phone call.</li>
               </ul>
-            </div>
-            <div>
+            </article>
+            <article class="pain eff">
               <h3>Efficiency</h3>
               <ul>
-                <li>Estimates today require on-site visit and take time</li>
-                <li>Losing money on every truck roll just for estimates</li>
-                <li>Responding to emergencies takes 1 hr on average that hurts our biz</li>
+                <li>Estimates today require an on-site visit and take time.</li>
+                <li>Losing money on every truck roll just for estimates.</li>
+                <li>Responding to emergencies takes 1 hr on average. That hurts the business.</li>
                 <li>We don’t know what we need before we get there, and often have to make second trips for parts.</li>
               </ul>
-            </div>
+            </article>
           </div>
         </div>
         <aside class="notes">
           <ul>
-            <li>Like Slides 4,5,6 from: https://docs.google.com/presentation/d/1yaC0sgGraz9pbpjbMcUFapmY5ONh7ZFuYLIoiq10RFs/edit?slide=id.g40a1a092d8b_10_105#slide=id.g40a1a092d8b_10_105</li>
-            <li>But condensed into a single slide.</li>
-            <li>Perhaps these are two categories of problems, Customer problems and Provider problems.</li>
+            <li>Like slides 4, 5, 6 from the CC deck: https://docs.google.com/presentation/d/1yaC0sgGraz9pbpjbMcUFapmY5ONh7ZFuYLIoiq10RFs/edit?slide=id.g40a1a092d8b_10_105#slide=id.g40a1a092d8b_10_105</li>
+            <li>Condensed into a single slide.</li>
+            <li>Two categories on screen: lack of trust, and efficiency. Trust hits both sides. Efficiency is mostly the provider.</li>
+            <li>slides.md typos, corrected on screen: “alget a text” and “that’s hurts our biz”.</li>
           </ul>
         </aside>
       </section>
 
       <section>
-        <div class="frame navy">
-          <h2>Solution | WhoDo</h2>
-          <div class="columns">
-            <div>
-              <h3>What is it?</h3>
-              <ul>
-                <li>A B2B SaaS platform</li>
-                <li>A Virtual Consultations directly integrated to your CRM</li>
-              </ul>
+        <div class="frame paper product" data-n="05">
+          <div class="copy">
+            <p class="kicker">Solution · WhoDo</p>
+            <h2>A virtual consult, inside the CRM.</h2>
+            <div class="outcomes">
+              <div class="outcome">
+                <b>What</b>
+                <p>B2B SaaS. Virtual consultations, integrated to the CRM they already run.</p>
+              </div>
+              <div class="outcome">
+                <b>Trust</b>
+                <p>Virtual calls build trust. The customer can see who they’re hiring.</p>
+              </div>
+              <div class="outcome">
+                <b>Time</b>
+                <p>Virtual calls save time and money. No truck roll just to estimate.</p>
+              </div>
+              <div class="outcome">
+                <b>Easy</b>
+                <p>Works over text. No app install. A non-technical tech can run it.</p>
+              </div>
             </div>
-            <div>
-              <h3>How does it solve?</h3>
-              <ul>
-                <li>Virtual calls build TRUST</li>
-                <li>Virtual calls SAVE TIME &amp; MONEY</li>
-                <li>WhoDo is EASY. Works over Text. No App Install. Any non-technical tech can use this tech.</li>
-              </ul>
+          </div>
+          <div class="art">
+            <div class="phone" aria-hidden="true">
+              <div class="screen">
+                <div class="bar">whodo <span>Text · no app</span></div>
+                <div class="bubble in"><p>Water heater is leaking. Can someone look today?</p></div>
+                <div class="bubble out"><p>Yes. Hop on a video consult in the browser. No download.</p></div>
+                <div class="callcard">
+                  <p>Virtual consult</p>
+                  <strong>On the call now</strong>
+                  <div class="join">Join in the browser</div>
+                  <p class="fine">Syncs both ways with ServiceTitan</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <aside class="notes">
           <ul>
-            <li>Need to include a picture of the app to show the investor what this is.</li>
+            <li>Need a picture of the app. There is no screenshot in images/. The phone on screen is a diagram of the text-to-browser flow, not a product capture. Drop a real screenshot in images/ and rebuild.</li>
+            <li>What it is: a B2B SaaS platform. Virtual consultations directly integrated to the CRM.</li>
+            <li>How it solves: virtual calls build trust. Virtual calls save time and money. WhoDo is easy. Works over text. No app install. Any non-technical tech can use it.</li>
           </ul>
         </aside>
       </section>
 
       <section>
-        <div class="frame light">
-          <h2>The Secret Sauce</h2>
-          <ul>
-            <li>Customers do NOT need to change their existing operations to get the value.</li>
-            <li>First Class ST Integration. Story: Most connected apps require changes in both places. Ours does NOT. Bidirectional sync.</li>
-            <li>Easy to implement.</li>
-            <li>Team doesn’t need hours of training to implement.</li>
-            <li>Text messaging and browser support. No install.</li>
-          </ul>
+        <div class="frame ink sauce" data-n="06">
+          <p class="kicker">The secret sauce</p>
+          <div class="sauce-grid">
+            <div>
+              <ol class="claims">
+                <li><span>01</span><p>No change to how the shop already works.</p></li>
+                <li><span>02</span><p>ServiceTitan, synced both ways.</p></li>
+                <li><span>03</span><p>Text and browser. No install.</p></li>
+              </ol>
+              <p class="aside-line">Easy to roll out. The team doesn’t need hours of training.</p>
+            </div>
+            <div class="sync">
+              <div class="node">The shop’s workflow</div>
+              <div class="bridge">stays put</div>
+              <div class="node hot">whodo</div>
+              <div class="bridge">both ways</div>
+              <div class="node">ServiceTitan</div>
+              <div class="stamp">Live demo</div>
+            </div>
+          </div>
         </div>
         <aside class="notes">
           <ul>
             <li>In this slide, we’ll break and do a live demo.</li>
-            <li>Eric, use as little works as possible and just move all our slide words to speaker notes. Anyway, love you. (From Dan, Brittany asked me to clarify). We should make the bold claims of the slide, and then just show the investors what it looks like in action.</li>
+            <li>Eric: as few words as possible. Bold claims on the slide, then show it. The longer lines live here.</li>
+            <li>Customers do NOT need to change their existing operations to get the value.</li>
+            <li>First-class ServiceTitan integration. Brittany talks to this. Most connected apps require changes in both places. Ours does not. Bidirectional sync.</li>
+            <li>Easy to implement. The team doesn’t need hours of training.</li>
+            <li>Text messaging and browser support. No install.</li>
           </ul>
         </aside>
       </section>
 
       <section>
-        <div class="frame navy">
-          <h2>Market Opportunity</h2>
-          <ul>
-            <li>TAM: 150,000 businesses → 90</li>
-            <li>SAM: 70% use CRM, 48% use FSM. Using 50% → 450M ARR</li>
-            <li>12-mo SOM: 60 Customers → 360K ARR</li>
-          </ul>
-        </div>
-        <aside class="notes">
-          <ul>
-            <li>@dan to fill this out.</li>
-            <li>Make sure to include GPT references.</li>
-            <li>TAM Source: Census Data for firms making at least 500K AR (AI sources)</li>
-            <li>ServiceTitan research showing that 70% of surveyed commercial service contractors already use a CRM</li>
-            <li>Inspo TAM/SAM/SOM chart</li>
-            <li>5 customers/mo with just sales budget, if we do sales+dev, we think we can double that.</li>
-          </ul>
-        </aside>
-      </section>
-
-      <section>
-        <div class="frame gradient">
-          <h2>Why Now?</h2>
-          <ul>
-            <li>AI is killing real human connections</li>
-          </ul>
-        </div>
-        <aside class="notes">
-          <ul>
-            <li>@Brittany to fill out</li>
-          </ul>
-        </aside>
-      </section>
-
-      <section>
-        <div class="frame light">
-          <h2>Who Else? | Competitive Analysis</h2>
-          <ul>
-            <li>Video Consults</li>
-            <li>CRMs</li>
-          </ul>
-        </div>
-        <aside class="notes">
-          <ul>
-            <li>This is the competitive analysis slide.</li>
-            <li>@dan send chatgpt convo to Brittany (it’s here)</li>
-          </ul>
-        </aside>
-      </section>
-
-      <section>
-        <div class="frame navy">
-          <h2>Business Model &amp; Go-To-Market</h2>
-          <ul>
-            <li>B2B SaaS Sub Model</li>
-            <li>Partnerships</li>
-            <li>Contractor Commerce</li>
-            <li>WorkWives</li>
-            <li>Direct Marketing (ads)</li>
-            <li>ST Marketplace</li>
-            <li>Jobber, Housecall Pro, Joist Marketplaces</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div class="frame light">
-          <h2>Timeline | Accomplishments &amp; Future Plans</h2>
-          <div class="timeline">
-            <div>
-              <h3>Summer 2025</h3>
-              <p>POC with design partner Intown</p>
+        <div class="frame ink" data-n="07">
+          <p class="kicker">Market opportunity</p>
+          <div class="opp">
+            <div class="ladder">
+              <div class="rung tam">
+                <span>TAM · U.S. only</span>
+                <strong>$800M–$1.1B</strong>
+                <em>~150K firms with $500K+ revenue × $6K</em>
+              </div>
+              <div class="rung sam">
+                <span>SAM · already on software</span>
+                <strong>$440M–$770M</strong>
+                <em>~98K firms on a CRM or FSM · 55–70%</em>
+              </div>
+              <div class="rung som">
+                <span>12-month SOM</span>
+                <strong>~$323K</strong>
+                <em>60 signed · 2% monthly churn</em>
+              </div>
             </div>
-            <div>
-              <h3>Spring 2026</h3>
-              <p>MVP, standalone app, $40K</p>
-            </div>
-            <div>
-              <h3>July 2026</h3>
-              <p>Beta (3 users)</p>
-            </div>
-            <div>
-              <h3>Aug 2026</h3>
-              <p>Meta ad campaign</p>
-            </div>
-            <div>
-              <h3>Sept 2026</h3>
-              <p>$2K ad spend = 35 sign-ups</p>
-            </div>
-            <div>
-              <h3>2026 Q4</h3>
-              <p>Hire sales person</p>
+            <div class="rings" aria-hidden="true">
+              <div class="ring tam">
+                <span class="ring-label">TAM</span>
+                <div class="ring sam">
+                  <span class="ring-label">SAM</span>
+                  <div class="ring som">
+                    <strong>~$323K</strong>
+                    <span>SOM</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <aside class="notes">
           <ul>
-            <li>Make this a timeline viz</li>
+            <li>Bottom-up. We start from the hard number of 150K qualified businesses.</li>
+            <li>TAM source: Census 2023 County Business Patterns (HVAC/plumbing, electrical, roofing, landscaping, pest, garage door) × 92% establishment-to-firm × 45% with $500K+ revenue × $6K. Range $800M–$1.1B. U.S. only; global is upside, not included.</li>
+            <li>SAM: 55% of $800M to 70% of $1.1B = $440M–$770M. 55–75% software-ready is the assumption.</li>
+            <li>Support: ServiceTitan research shows 70% of surveyed commercial contractors use a CRM; Deloitte 2026 shows 58% use an FSM.</li>
+            <li>Wedge: ServiceTitan alone has ~10.8K active users. That’s $65M ARR. Do not add it on top of TAM. It sits inside SAM.</li>
+            <li>Even 250 customers is 0.26% of SAM and $1.5M ARR. That is penetration math, not the forecast. The model does not reach 250 inside 36 months.</li>
+            <li>12-month SOM: 5 new paying Pro customers a month. 60 signed in the year, 2% monthly churn, about $323K ending ARR.</li>
+            <li>If asked: our SOM is below the research model (125 customers / $750K at 12 months).</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame lime poster" data-n="08">
+          <p class="kicker">Why now</p>
+          <h1>AI is killing<br>real human<br>connections.</h1>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>@Brittany to fill out. This slide is one line on purpose. Don’t invent the rest from the stage.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame paper compete" data-n="09">
+          <p class="kicker">Who else</p>
+          <h2>We don’t replace the CRM. We don’t sell the lead. <span class="hl">We close the gap.</span></h2>
+          <table class="matrix">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Marketplaces<br>Thumbtack, Angi, Yelp</th>
+                <th>Video tools<br>LiveSwitch</th>
+                <th>CRM / FSM<br>ServiceTitan, Jobber, HCP</th>
+                <th class="us">WhoDo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Instant virtual consult</td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip yes">Yes</span></td>
+                <td><span class="chip mid">Rarely</span></td>
+                <td class="us"><span class="chip yes">Yes</span></td>
+              </tr>
+              <tr>
+                <td>Contractor owns the customer</td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip yes">Yes</span></td>
+                <td><span class="chip yes">Yes</span></td>
+                <td class="us"><span class="chip yes">Yes</span></td>
+              </tr>
+              <tr>
+                <td>Replaces the CRM</td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip yes">Yes</span></td>
+                <td class="us"><span class="chip no">No</span></td>
+              </tr>
+              <tr>
+                <td>Bidirectional CRM sync</td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip mid">Limited</span></td>
+                <td><span class="chip yes">Native</span></td>
+                <td class="us"><span class="chip yes">Yes · ST</span></td>
+              </tr>
+              <tr>
+                <td>Sells / owns the lead</td>
+                <td><span class="chip yes">Yes</span></td>
+                <td><span class="chip no">No</span></td>
+                <td><span class="chip no">No</span></td>
+                <td class="us"><span class="chip no">No</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="gap">
+            <span>Whitespace</span>
+            <p>Pre-sale video qualification that plugs into the CRM the shop already runs — text and browser, no app, no middleman.</p>
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Frame: four categories, one gap. WhoDo is not another CRM and not another lead marketplace.</li>
+            <li>Marketplaces (Thumbtack, Angi, Yelp): own discovery and the lead. Contractor rents access to the homeowner. No virtual-consult workflow. Easy dig: “Aren’t you just a better Thumbtack?” Answer: no — we never take the lead; we help the contractor close demand they already have.</li>
+            <li>Video tools (LiveSwitch is the real peer; HandiY/FrontDoor unverified): closest product overlap on remote estimates. Differentiator, said carefully: bidirectional ServiceTitan sync, no-download text/browser path, and we do not become another system of record. LiveSwitch’s documented CRM hook is Housecall Pro.</li>
+            <li>CRM / FSM (ServiceTitan, Housecall Pro, Jobber; Podium as inbox): they run the business. Scheduling, jobs, payments. Virtual consult is not native — HCP bolts on LiveSwitch. Thesis: sit on top, don’t rip-and-replace. Biggest strategic risk if asked: ServiceTitan builds or buys this layer into Marketing Pro / the OS.</li>
+            <li>Reputation / marketing (Birdeye, NiceJob): post-job reviews and referrals. Adjacent, not the same job. Do not put them on the slide.</li>
+            <li>Callout: converting only ServiceTitan’s ~10.8K active base is a ~$65M ARR wedge inside SAM.</li>
+            <li>Callout: LiveSwitch is the honest product competitor on video. Everyone else is a different job.</li>
+            <li>If pressed on defensibility: measurable lead-to-booked conversion, ST integration depth, and whether provider-referral network effects show up. Don’t claim network effects you haven’t proven.</li>
+            <li>Source: research-docs/competitive-analysis.csv and research-docs/competitive-research.md. Do not put HandiY/FrontDoor on the slide until verified.</li>
+            <li>“Rarely” on screen is the slide’s “Rarely (add-on).” “Limited” is “Limited (e.g. HCP).” “Yes · ST” is “Yes (ST first).”</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink" data-n="10">
+          <p class="kicker">Business model &amp; go-to-market</p>
+          <div class="prices">
+            <article class="price">
+              <p class="tier">Basic</p>
+              <p class="amt">Free</p>
+            </article>
+            <article class="price">
+              <p class="tier">Grow</p>
+              <p class="amt">$250<span>/mo</span></p>
+            </article>
+            <article class="price pro">
+              <p class="tier">Pro · the plan we sell</p>
+              <p class="amt">$500<span>/mo</span></p>
+            </article>
+          </div>
+          <p class="rule">No setup fees. No usage overages.</p>
+          <div class="gtm">
+            <div class="panel">
+              <h3>Partnerships · 5 new paying customers a month</h3>
+              <ul>
+                <li>Contractor Commerce + WorkWives — warm intros; we close</li>
+                <li>Early Access: 20% of MRR for the first 50 signups, up to 2 years</li>
+                <li>Verbal agreements are live. First 5 referrals are in hand.</li>
+              </ul>
+            </div>
+            <div class="panel quiet">
+              <h3>Secondary, later</h3>
+              <ul>
+                <li>Ads already ran → 35 Basic accounts</li>
+                <li>ServiceTitan, Jobber, Housecall Pro, Joist marketplaces</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>B2B SaaS. Basic free, Grow $250, Pro $500. No setup fees, no usage overages. The forecast is all Pro at $500.</li>
+            <li>Partnerships drive year one: 5 new paying customers a month. Verbal agreements already. First 5 referrals in hand.</li>
+            <li>Contractor Commerce. WorkWives. They give warm intros. We close.</li>
+            <li>On screen: Early Access is 20% of MRR for the first 50 signups, up to 2 years.</li>
+            <li>Workbook detail, if they open the file: 20% of collected subscription revenue for 12 months per customer, and only while they stay. Year-one rev share is about $36K. Years 2 and 3 together are about $64,585. The model is pessimistic. The plan is a max of 2 years for the first 50 signups.</li>
+            <li>Ads already produced 35 Basic accounts. Later: ServiceTitan, Jobber, Housecall Pro, Joist marketplaces.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame paper" data-n="11">
+          <p class="kicker">Timeline · accomplishments</p>
+          <h2>Built. In market. Not yet paid.</h2>
+          <div class="rail">
+            <div class="stop">
+              <p class="when">Summer 2025</p>
+              <span class="dot"></span>
+              <p>POC. Design partner Intown.</p>
+            </div>
+            <div class="stop">
+              <p class="when">Spring 2026</p>
+              <span class="dot"></span>
+              <p>MVP. Standalone web app.</p>
+            </div>
+            <div class="stop">
+              <p class="when">July 2026</p>
+              <span class="dot"></span>
+              <p>Beta. 3 customers. None paying yet.</p>
+            </div>
+            <div class="stop now">
+              <p class="when">Aug–Sep 2026</p>
+              <span class="dot"></span>
+              <p>Meta ads → 35 Basic signups. Campaign paused. None paying yet.</p>
+            </div>
+          </div>
+          <div class="spent">
+            <div>
+              <strong>~$80K spent to date</strong>
+              <p class="meta">Build + early GTM. Founder-funded.</p>
+            </div>
+            <p class="quiet">History. Not part of the raise.</p>
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Summer 2025: POC, design partner Intown.</li>
+            <li>Spring 2026: MVP, standalone web app.</li>
+            <li>July 2026: beta with 3 customers. None paying. Need an S/M person to upsell.</li>
+            <li>Aug 2026: Meta ad campaign launched. Sept 2026: campaign paused. 35 total signups. None paying. Need an S/M person to upsell.</li>
+            <li>Spend to date for build + early GTM: ~$80K (POC $30K + MVP $40K + operating $10K).</li>
+            <li>All founder money. Brittany put in cash, Dan put in time.</li>
+            <li>The ~$80K is history. Do not add it to the $275K ask or present it as part of the forward plan.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink" data-n="12">
+          <p class="kicker">Plans &amp; projections</p>
+          <h2>5 new Pro customers a month.</h2>
+          <p class="premise">2% monthly churn · $500. Q1 2027: S/M hire. Early Access through Q2.</p>
+          <div class="years">
+            <article class="year">
+              <p class="num">Year 1</p>
+              <p class="arr">~$323K</p>
+              <div class="meter"><span class="m1"></span></div>
+              <p>60 new · ~54 paying</p>
+            </article>
+            <article class="year">
+              <p class="num">Year 2</p>
+              <p class="arr">~$576K</p>
+              <div class="meter"><span class="m2"></span></div>
+              <p>~96 paying</p>
+            </article>
+            <article class="year y3">
+              <p class="num">Year 3</p>
+              <p class="arr">~$775K</p>
+              <div class="meter"><span class="m3"></span></div>
+              <p>~129 paying</p>
+            </article>
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Base case: 5 new paying Pro customers a month for 36 months, 2% monthly churn on the customers already here, price stays $500. New customers pay a full $500 in the month they sign and do not churn that month. The clock starts when the plan starts, not on a calendar date.</li>
+            <li>S/M hire at the start of Q1 2027. They onboard leads from partnerships (CC, WW, and others) and work Brittany’s network: ad agencies, website agencies, ServiceTitan marketplace vendors.</li>
+            <li>Early Access runs Q1–Q2.</li>
+            <li>Say the rounded numbers. The sheet is for when they open the file.</li>
+            <li>Year 1: 60 new, ~54 still paying, ~$323K ending ARR, ~$181K collected. Sheet: 53.8 customers, $322,925 ARR, $181,390 collected.</li>
+            <li>Year 2: 60 new, ~96 still paying, ~$576K ending ARR, ~$465K collected. Sheet: 96.1 customers, $576,329 ARR, $465,265 collected.</li>
+            <li>Year 3: 60 new, ~129 still paying, ~$775K ending ARR, ~$688K collected. Sheet: 129.2 customers, $775,180 ARR, $688,026 collected.</li>
+            <li>Costs stay flat for all three years except the rev share. GTM loaded at $120K, dev at $78K, four conferences at $20K, hosting and tools and legal flat.</li>
+            <li>Do not call the cash collected ARR. Year-one cash is about $181K. It belongs on the next slide, and only as cash.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame paper" data-n="13">
+          <p class="kicker">Use of funds</p>
+          <div class="ask">
+            <div>
+              <p class="big">$275K</p>
+              <p class="sub">SAFE</p>
+              <p class="sub">$2M proposed post-money cap</p>
+              <p class="sub">Year-one plan ~$270K</p>
+              <p class="nosalary">Founders take no salary</p>
+            </div>
+            <div>
+              <div class="bar" aria-hidden="true">
+                <div class="seg"></div>
+                <div class="seg"></div>
+                <div class="seg"></div>
+                <div class="seg"></div>
+                <div class="seg"></div>
+              </div>
+              <div class="legend">
+                <div><i class="swatch a"></i><span>GTM hire, salary + load</span><b>$120K</b></div>
+                <div><i class="swatch b"></i><span>Product, 20 hrs/week</span><b>$78K</b></div>
+                <div><i class="swatch c"></i><span>Partner rev share</span><b>~$36K</b></div>
+                <div><i class="swatch d"></i><span>Four conferences</span><b>$20K</b></div>
+                <div><i class="swatch e"></i><span>Tools, hosting, legal</span><b>≈ $16K</b></div>
+              </div>
+              <div class="cash">
+                <p>Year 1, if the plan hits: <strong>~$181K collected</strong> · <strong>~$323K ending ARR</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>We’re asking for $275K on a SAFE. Proposed post-money cap is $2M, about 14% at the cap. The sheet says 13.75%. Call the cap proposed. The model has no conversion, fees, or taxes.</li>
+            <li>Year-one operating cost is about $270K. Sheet: $270,118.</li>
+            <li>GTM hire, salary plus 20% load: $120K.</li>
+            <li>Contract dev, 20 hrs/week at $75: $78K.</li>
+            <li>Four conferences at $5K: $20K.</li>
+            <li>Tools, hosting, and legal, about $16K. Sheet split: hosting $3K, outreach tools $6,840, legal/accounting/insurance $6K. Legal is still a placeholder.</li>
+            <li>Partner rev share, about $36K. First 12 months, paid only while the customer stays.</li>
+            <li>Founders take no salary.</li>
+            <li>Spoken close: “We’re raising $275K to fund that plan. If the pace holds, customers pay us about $181K in year one on top of the raise, and we end the year at about a $323K ARR.”</li>
+            <li>The low point is the operating hole, about $90K in month 9. Sheet: cumulative cash flow excluding the SAFE is -$90,016. Say it only if asked.</li>
+            <li>The SAFE lands in month 1, so the bank balance that month is about $185K (sheet: $184,984): the $275K minus that hole. Year one ends about $89K down on operations (sheet: -$88,728) and about $186K in the bank (sheet: $186,272).</li>
+            <li>~$181K is cash collected. Never call it ARR.</li>
           </ul>
         </aside>
       </section>

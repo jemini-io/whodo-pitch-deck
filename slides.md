@@ -82,7 +82,7 @@ Co-Founder & Fractional CTO
 
 - TAM: ~150K U.S. firms with $500K+ revenue × $6K = $800M-$1.1B ARR (U.S. only)
 - SAM: ~98K already on CRM/FSM software (55-70%) -> $440M-$770M ARR
-- 12-mo SOM: 60 Customers -> 360K ARR
+- 12-mo SOM: 60 signed · 2% monthly churn · ~$323K ending ARR
 
 ## 8. Why Now?
 
@@ -107,10 +107,10 @@ Whitespace: pre-sale video qualification that plugs into the CRM the shop alread
 **B2B SaaS** — Basic free · Grow $250/mo · Pro $500/mo  
 No setup fees. No usage overages.
 
-**Base-case GTM: partnerships** (drives the first 60)
+**Base-case GTM: partnerships** (5 new paying customers a month)
 
 - Contractor Commerce + WorkWives — warm intros; we close
-- Early Access: 20% rev share on MRR for first 50 customers, up to 2 years
+- Early Access: 20% of MRR for the first 50 signups, up to 2 years
 - Verbal agreements live; first 5 referrals in hand
 
 **Secondary / later**
@@ -131,22 +131,26 @@ No setup fees. No usage overages.
 
 ## 12. Plans & Projections
 
-**Q1 2027** — Hire S/M; own partner leads (CC, WW) + Brittany network / new partners  
-**Q1–Q2** — Early Access program  
-**Month 12** — **60 Pro @ $500 = $360K ARR**
+**5 new Pro customers a month · 2% monthly churn · $500**
 
-Upside: with additional product funding beyond the base ask, we believe we can 2×.
+**Q1 2027** — S/M hire. Early Access through Q2.
+
+- Year 1 — 60 new · ~54 paying · **~$323K ARR**
+- Year 2 — ~96 paying · **~$576K ARR**
+- Year 3 — ~129 paying · **~$775K ARR**
 
 ## 13. Use of Funds
 
-**Raise $275K** — the year-one operating plan
+**$275K SAFE** · $2M proposed post-money cap
+
+Year-one plan **~$270K**
 
 - GTM hire (salary + load) — **$120K**
 - Product, 20 hrs/week — **$78K**
 - Four conferences — **$20K**
 - Tools, hosting, legal — **~$16K**
-- Partner rev share — **$39K**, paid only when subscription revenue comes in
+- Partner rev share — **~$36K**
 
 Founders take no salary.
 
-**If the 5-a-month plan hits:** **$195K** cash collected over the year, on top of the raise. Month-12 run rate stays **$360K ARR**.
+**Year 1, if the plan hits:** **~$181K** collected · **~$323K** ending ARR

@@ -50,7 +50,9 @@ This is a bottom-up analysis- we're starting with the hard number of 150K qualif
 Support: ServiceTitan research shows 70% of surveyed commercial contractors use a CRM; Deloitte 2026 shows 58% use an FSM.
     1. Wedge: ServiceTitan alone has ~10.8K active users, that's $65M ARR. 
     1. Even if we got 250 customers, that's 0.26% of SAM and $1.5M ARR
-1. 12-month SOM: 5 new Pro customers/mo, 60 at month 12, $360K ending ARR. That $360K is month-12 ARR from the year-one model. 
+1. 12-month SOM: 5 new paying Pro customers a month. 60 signed in the year, 2% retention loss: about $323K ending ARR.
+
+The 250 customers / $1.5M line above is penetration math, not the forecast. The model does not reach 250 inside 36 months.
 
 If asked: Our SOM is below the research model (125 customers / $750K at 12 months).
 
@@ -81,12 +83,15 @@ Source of truth for the matrix: `research-docs/competitive-analysis.csv` and `re
 ## 10. Business Model & Go-To-Market
 
 - B2B Saas Sub Model, Basic: Free, Grow: $250, Pro: $500. No setup fees, no usage overages.
-- Partnerships - This drives the initial 60, verbal agreements (already have the first 5 referrals)
+- Partnerships drive year-one: 5 new paying customers a month. Verbal agreements already, first 5 referrals in hand.
     - Contractor Commerce
     - WorkWives
-  Partnerships leverage our Early Access Program that offers 20% Rev Share for first 50 customers, for up to 2 yrs. They will provide us warm intros to their existing customers. We just need to close the deal. Paid on MRR.
-  
-  Note: The raw numbers sheet do not apply these comission restrictions. Can do, if/when investors ask for the exact breakdown.
+  They give warm intros. We close.
+
+  Early Access in the workbook: 20% of collected subscription revenue for 12 months per customer, and only while they stay.
+  Year-one rev share: ~$36K. year 2 and year 3: ~$64,585. The model is pessimistic, we plan on only doing the rev share for max of 2 years for the first 50 sign ups.
+
+  The forecast is all Pro at $500.
 
 - Direct Marketing (ads) - this has already got us 35 customers on Basic Plan
 - ST Marketplace
@@ -110,34 +115,40 @@ Make this a timeline viz
 
 ## 12. Plans & Projections
 
-Base case, and this is the case in the workbook: 5 new Pro customers a month, no churn, 60 at month 12, $360K ending ARR. The clock starts when the GTM hire starts, not when the round closes. Paid ads stay off.
+Base case: 5 new paying Pro customers a month for 36 months, 2% monthly churn on the customers already here, price stays $500. New customers pay a full $500 in the month they sign and do not churn that month. The clock starts when the plan starts, not on a calendar date.
 
 1. We plan to make a sales/marketing (S/M) hire at the start of Q1 2027
 1. That hire will onboard and support leads from partnerships (CC, WW, etc)
 1. Run our Early-Access program Q1-Q2.
 1. S/M Hire will also work Brittany's network and social outreach to establish more partners.
     1. Partners: Ad agencies, website agencies, service-titan marketplace venders, etc.
-1. By the end of 12 mo, we expect to hit our target of 60 Pro-Plan customers = $360K ending ARR
 
-Do not call the $195K of cash collected "ARR." That number is cash across the ramp. It belongs on the next slide, and only as cash.
+Ending picture. Say the rounded column. The sheet column is for when they open the file.
+
+1. Year 1: 60 new, ~54 still paying, ~$323K ending ARR, ~$181K collected. Sheet: 53.8 customers, $322,925 ARR, $181,390 collected.
+1. Year 2: 60 new, ~96 still paying, ~$576K ending ARR, ~$465K collected. Sheet: 96.1 customers, $576,329 ARR, $465,265 collected.
+1. Year 3: 60 new, ~129 still paying, ~$775K ending ARR, ~$688K collected. Sheet: 129.2 customers, $775,180 ARR, $688,026 collected.
+
+Costs stay flat for all three years except the rev share. GTM loaded at $120K, dev at $78K, four conferences at $20K, hosting and tools and legal flat.
+
+Do not call the cash collected "ARR." Year-one cash is about $181K. It belongs on the next slide, and only as cash.
 
 ## 13. Use of Funds & Vision ("What’s Next?")
 
-We're asking for $275K. The whole year-one operating plan sheet totals $272,840.
+We're asking for $275K on a SAFE. Proposed post-money cap is $2M, about 14% at the cap. The sheet says 13.75%. Call the cap proposed. The model has no conversion, fees, or taxes.
+
+Year-one operating cost is about $270K. Sheet: $270,118.
 
 1. GTM hire, salary plus 20% load: $120K
-1. Contract dev, 20 hrs/week at $75: $78K.
+1. Contract dev, 20 hrs/week at $75: $78K
 1. Four conferences at $5K: $20K
+1. Tools, hosting, and legal, about $16K. Sheet split: hosting $3K, outreach tools $6,840, legal/accounting/insurance $6K. Legal is still a placeholder.
+1. Partner rev share, about $36K. First 12 months, paid only while the customer stays.
+1. Founders take no salary.
 
-Then:
-- tools and hosting about $10K,
-- legal/accounting/insurance $6K 
-- partner rev share $39K paid only when subscription revenue actually comes in.
-- Founders take no salary.
+Spoken close: "We're raising $275K to fund that plan. If the pace holds, customers pay us about $181K in year one on top of the raise, and we end the year at about a $323K ARR."
 
-Spoken close: "We're raising $275K to fund that plan outright. If the 5-a-month plan hits, customers pay us about $195K over the year on top of the raise, and we end the year at a $360K run rate."
-
-Note: ~$85K is the low point of the budget and assumes all 60 customers show up on schedule.
+The low point is the operating hole, about $90K in month 9. Sheet: cumulative cash flow excluding the SAFE is -$90,016. The SAFE lands in month 1, so the bank balance that same month is about $185K (sheet: $184,984), which is the $275K minus that hole. Year one ends about $89K down on operations (sheet: -$88,728) and about $186K in the bank (sheet: $186,272).
 
 ## References (for us)
 

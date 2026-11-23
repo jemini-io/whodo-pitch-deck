@@ -19,9 +19,15 @@ Anything not listed: ask before touching it.
 
 ## Source of truth
 
-- `slides.md` holds the on-screen text and the picture direction for each slide.
-- `speaker-notes.md` holds what the presenter says for each slide.
-- Slides are numbered with `## N. Title` headings. The number is the join key between the two files.
+Authority flows in one direction. When two files disagree, the earlier one wins.
+
+1. `research-docs/` is authoritative. Claims about the market, competitors, and the financial plan start here.
+2. `speaker-notes.md` reflects those docs and gives the presenter the words to defend the claims. It does not invent a second set of numbers.
+3. `slides.md` is the on-screen sugar for the points in the speaker notes. Fewer figures, same figures.
+
+The financial plan lives in `research-docs/WhoDo_36_Month_Investor_Financial_Model.xlsx`. Round a figure for the room only after the sheet has the exact one.
+
+- Slides are numbered with `## N. Title` headings. The number is the join key between `slides.md` and `speaker-notes.md`.
 - "On screen" text is the only text the room sees. Notes are what the presenter says.
 
 ## Rebuilding index.html
@@ -48,5 +54,6 @@ Run this only when a human asks to "catch the deck up" or "rebuild the slides." 
 
 ## Known state
 
-- `slides.md` has slides 1 to 12. `speaker-notes.md` has 1 to 13 (13 is "Use of Funds"). Slides 12 and 13 have no on-screen content, so the last rebuild left them out.
-- `index.html` was last rebuilt from the source files. Slide 7 numbers in `slides.md` don't match `research-docs/market-size-research.md`. Resolve that in `slides.md` before the next rebuild.
+- `slides.md` and `speaker-notes.md` both run through slide 13. `index.html` is behind them until the next rebuild.
+- Slide 7 market figures in `slides.md` still need a check against `research-docs/market-size-research.md` before that rebuild.
+- Year-1 through year-3 operating figures follow `research-docs/WhoDo_36_Month_Investor_Financial_Model.xlsx`.
